@@ -1,0 +1,35 @@
+/* General Container */
+.todo-list-container {
+    width: 500px; /* Adjust width as needed */
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Todo Items */
+  .todo-list-container div {  
+    margin-bottom: 10px;
+  }
+  
+  /* Checkboxes */
+  .todo-list-container input[type="checkbox"] {
+    margin-right: 10px; 
+  }
+  
+  /* Buttons */
+  .todo-list-container button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px; 
+  }
+  
+  .todo-list-container button:hover {
+    background-color: #0056b3; /* Slightly darker on hover */
+  }
+  

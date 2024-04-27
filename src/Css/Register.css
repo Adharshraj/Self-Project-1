@@ -1,0 +1,99 @@
+/* Assuming your CSS file is named RegistrationForm.css */
+.registration-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set minimum height for full viewport */
+    background-color: #f5f5f5; /* Light background color (optional) */
+  }
+  
+  .form-container {
+    background-color: #fff; /* White form background */
+    border-radius: 5px;
+    padding: 30px;
+    width: 400px; /* Adjust width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control,
+  .form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-control:focus {
+    border-color: #303f9f; /* Change focus border color (optional) */
+  }
+  
+  .form-select {
+    height: 38px; /* Adjust select element height */
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-group label {
+    margin-right: 15px;
+  }
+  
+  .form-check-input {
+    margin-right: 5px; /* Adjust radio button margin */
+  }
+  
+  .textarea {
+    resize: vertical; /* Allow textarea resizing */
+    min-height: 100px; /* Set minimum height for textarea */
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #303f9f; /* Blue button color */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .btn1{
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-block; /* Allow setting width and height */
+    padding: 10px 20px;
+    align-self: center;
+  }
+
+  .button:hover {
+    background-color: #283a7c; /* Darker blue on hover */
+  }
+  body{
+    background-color: #6495ED;
+  }
+  .buttu{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  

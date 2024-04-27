@@ -1,0 +1,79 @@
+.view-project { /* Add a class for the outer container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px; /* Adjust for responsiveness */
+  }
+  .edit-button {
+    background-color: #303f9f; /* Your desired blue color */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .created-date {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  
+  .todos {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .todos h2 {
+    margin-bottom: 10px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .todo-checkbox {
+    margin-right: 10px;
+  }
+  
+  .todo-description {
+    flex: 1;
+    font-size: 1em;
+  }
+  
+  .completed-tasks,
+  .pending-tasks {
+    margin-bottom: 15px;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

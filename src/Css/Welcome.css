@@ -1,0 +1,79 @@
+form{
+	max-width: 500px; /* Set a maximum width for the container to prevent it from stretching across the entire page */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    color:#fff;
+}
+.form-control{
+	width: 100%; /* Make the text input fill the entire width of its container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    margin-bottom: 10px;
+    color: black;
+}
+
+@keyframes colorChange {
+    from { color: #fff; }
+    to { color: #ff5733; }
+}
+.Welcome{
+    background-color: #6495ED;
+}
+.index-container {
+    display: flex; /* Allow flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Set minimum height for full viewport */
+    background-color: #6495ED; /* Light background color (optional) */
+  }
+  a{
+	text-decoration: none; /* Remove the default underline */
+    color: #fff; /* Set the text color to your preferred color */
+    cursor: pointer;
+}
+  .welcome-text {
+    text-align: center; /* Center the h1 text horizontally */
+    margin-bottom: 20px; /* Add space between h1 and buttons */
+    font-size: 24px; /* Adjust font size as needed */
+    color: #303f9f; /* Blue color for text (optional) */
+    animation: colorChange 2s infinite alternate;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example animation, create a @keyframes rule for more options */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between; /* Space buttons evenly */
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0; /* Square buttons */
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-block; /* Allow setting width and height */
+  }
+  
+  .btn-primary {
+    background-color: #303f9f; /* Blue button */
+    color: #fff; /* White text */
+  }
+  
+  .btn-primary:hover {
+    background-color: #283a7c; /* Darker blue on hover */
+  }
+  
+  .btn-secondary {
+    background-color: #e0e0e0; /* Gray button */
+    color: #000; /* Black text */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #cccccc; /* Lighter gray on hover */
+  }
+  
+  
+  
+  
