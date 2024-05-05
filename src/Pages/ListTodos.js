@@ -30,6 +30,19 @@ const TodoList = () => {
 
     // Handle deleting a todo
     const handleDeleteTodo = async (id) => {
+      try{
+        const Data3={
+          id:selectedTodoId
+        };
+
+        const response=await axios.post('http://localhost:8080/fetchalltodos',Data3);
+        console.log(response.data);
+      }
+      catch(error){
+        console.error('List todo error: ',error);
+        alert('an unexpected error happend');
+      }
+
         try {
             axios.get('http://localhost:8080/deletetodo')
             .then(response=>{
@@ -38,7 +51,9 @@ const TodoList = () => {
         } catch (error) {
             console.error('Error deleting todo:', error);
         }
-    };
+      };
+      
+    
 
     // Handle editing a todo
     const handleEditTodo = async(event) => {
@@ -94,6 +109,6 @@ const TodoList = () => {
             )}
         </div>
     );
-};
+  };
 
 export default TodoList;

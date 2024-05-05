@@ -50,7 +50,7 @@ export default function Register() {
 
             <label class="form-label">Gender: </label>
             <select class="form-select" aria-label="Disabled select example" name="gender" value={gender} onChange={e=>setGender(e.target.value)}>
-            <option selected>Open this select menu</option>
+            <option selected>Select</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
